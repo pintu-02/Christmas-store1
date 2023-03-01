@@ -1,0 +1,242 @@
+/*Table-of content*/
+/*---------------------------
+1.General
+2.Navbar
+3.Banner
+4.Best Deal
+5.Donate
+6.Footer
+--------------------------*/
+
+/*- .General --*/
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,900&family=Oswald:wght@200;400&family=Roboto:wght@300&family=Unbounded:wght@300&display=swap'); 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------Banner-page-Design--------------*/
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  --bs-gutter-x: 0rem;
+}
+
+
+.fixed-top{
+  background-color: yellow;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+color:red;
+}
+
+/* .banner_wrapper{
+ background: red;
+} */
+
+.carousel-item img{
+background-size: 100% 100%;
+line-height: 20rem;
+width: 100px;
+
+}
+.carousel-caption {
+  bottom: 4.5rem;
+}
+
+
+.banner-text h1 {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Unbounded', cursive;
+}
+
+.carousel-indicators [data-bs-target]{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.btn-primary:hover{
+ background-color: yellow;
+ border-radius: 3px;
+ 
+}
+/*----------------------Banner-page-Design-end--------------*/
+
+/*-----------------Wishes-page-----------------*/
+.wishes-text{
+  margin-top: 1rem;
+  text-align: center;
+ font-weight: bold;
+}
+.wishes-text h1{
+  font-size: 5rem;
+  font-style: italic;
+  color: red;
+}
+.santa-img img{
+  height: 85%;
+  margin-bottom: 2rem;
+}
+
+.text-read img{
+  width: 60px;
+}
+.text-read{
+  color: red;
+  font-style: italic;
+}
+
+.right-box{
+  margin-top: 5.5rem;
+}
+
+.btn-warning{
+  border-radius: 25rem;
+  border: 2px solid black;
+
+}
+.btn-warning:hover{
+ box-shadow: 0 0.5rem 1.5rem red;
+ border-radius: 1.5rem ;
+ border:black;
+}
+
+
+/*---------------------Best-Deals---------------------*/
+
+.wishes-text{
+  margin-top: -0.5rem;
+}
+.card-container{
+  margin-top: 5rem;
+}
+.sub-info{
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.card-container img:hover{
+  transform: scale(1.03);
+}
+  .card-container.sub-info{
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+}
+
+/*--------------Donates-------------*/
+
+.donates-gifts{
+  margin-top: 5rem;
+  padding: 20px 20px;
+  line-height: 80%;
+  width: 100%;
+}
+.donates-gifts img:hover{
+  transform: scale(1.05);
+  transition:0.5s all ease-in-out;
+  cursor: pointer;
+}
+
+/*---------------------Testimonial---------------------*/
+.testimonia-member{
+  padding-left: 2rem;
+}
+.testimonia-member p{
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.testimonia-member h3{
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+.testimonia-member img:hover{
+  transform: scale(1.05);
+  transition:0.8s all ease-in-out;
+  cursor: pointer;
+}
+
+
+/*------------------------------Contac---------------------*/
+
+.background-banner{
+  background-image: url("../public/images/footer-bg.png");
+  margin-top: 5rem;
+  height:100%;
+  width: 100%;
+  background: size 100% 100%;
+}
+
+
+.text-first{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: oblique;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.input-btn{
+  border-radius:1rem;
+  background-color: red;
+}
+.form-control{
+  border-radius: 2rem;
+}
+
+.form-input{
+  margin-top: 2rem;
+  margin-left: 5rem;
+  background-color: yellow;
+  border: black;
+  border-radius: 60px;
+}
+.footer-item{
+  margin-left: 5rem;
+}
+
+.account-item ul li{
+list-style: none;
+}
+
+.account-item ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icon{
+  padding: 0;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+  margin: 0 10px 0;
+  background-color: yellow;
+  text-decoration:none ;
+  color: black;
+  display:inline-block;
+  justify-content: center;
+}
+
+.footer-icon:hover{
+  background-color:green;
+}
+.fab {
+  padding-top:3px;
+font-size: 1.5rem;
+text-align: center;
+justify-content: center;
+}
